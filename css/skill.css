@@ -1,0 +1,16 @@
+
+.skillsDiv {
+    padding: 5% 0% 5% 0%;
+    height: auto;
+    width: 100%;
+    background-color: #f6f5f5;
+  }
+
+@media only screen and (max-width: 600px) and (min-width: 0px) {
+    .skillsDiv {
+        height: auto;
+        width: 100%;
+        background-color: #f6f5f5;
+        padding: 10% 0% 10% 0%;
+      }
+}

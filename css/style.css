@@ -1,0 +1,23 @@
+*{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.hr {
+    height: 1px;
+    background-color: #f70000;
+    width: 40px;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #273f5b;
+}
+
+.text-center {
+    text-align: center!important;
+}

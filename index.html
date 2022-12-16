@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/education.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/skill.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Header Starts -->
+    <header class="navbar">
+        <div class="user">
+          <h2></h2>
+        </div>
+        <nav class="navItem">
+          <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Me</a>
+          </li>
+          </ul>
+        </nav>
+        <a class="download-btn" download="ARYA-RESUME.pdf" href="./assets/documents/Resume.pdf"><i class="uil uil-import"></i>Download Resume <i class="fa-solid fa-download"></i></button></a>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Image Div Starts -->
+
+    <div class="home">
+        <div class="userImageBlock">
+            <img
+              src="./assets/images/img.jpeg"
+              width="300px"
+              height="200px"
+              class="image"
+            />
+        </div>
+        <div class="userContent">
+            <h3>Hi There!</h3>
+            <h1>I Am <span>Arya Patel</span></h1>
+            <p>Future Software Engineer</p>
+            <a href="#about"><button class="about-btn">About Me <i class="fa-solid fa-user"></i></button></a>
+        </div>
+  
+    </div>
+
+    <!-- Image Div Ends -->
+
+    <!-- About Me Starts -->
+    <div id="about" class="aboutMeDiv">
+      <h3 class="title">About Me and Academic Honesty</h3>
+      <hr class="hr" />
+      <div class="aboutMeContent">
+        <div class="aboutMeTable">
+            <table class="styled-table">
+                <tbody>
+                    <tr>
+                        <td><b>AGE:</td>
+                        <td class="aboutDetails">19</td>
+                    </tr>
+                    <tr class="active-row">
+                        <td><b>EMAIL:</td>
+                        <td class="aboutDetails">apatel531@myseneca.ca</td>
+                    </tr>
+                    
+                    
+                    <tr class="active-row">
+                        <td><b>LANGUAGES:</td>
+                        <td class="aboutDetails">English, Hindi, Gujarati</td>
+                    </tr>
+                    <tr class="active-row">
+                        <td><b>CLASS SECTION:</td>
+                        <td class="aboutDetails">NFF</td>
+                    </tr>
+                    <tr class="active-row">
+                        <td><b>STUDENT ID:</td>
+                        <td class="aboutDetails">169943214</td>
+                    </tr>
+                    <tr class="active-row">
+                        <td><b>Hobbies:</td>
+                        <td class="aboutDetails">Playing Badminton, Playing Video Games, Reading Books, Observing Astronomical objects at midnight.</td>
+                    </tr>
+                    <tr class="active-row">
+                        <td><b>INSTRUCTOR:</td>
+                        <td class="aboutDetails">Mark Meritt</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="aboutMeText">
+          <strong> Honesty Statement: </strong>
+          <i><br> I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students. </i>
+
+          <br>
+          <h4><b>DATE:</b>December 16th, 2022</h4>
+          <br>
+          Hey there! I'm Arya Patel, and I'm currently pursuing computer programming at Seneca College. My father bought me a computer when I was 10 years old, which sparked my interest in computers. As time went on, my interest in computer science grew steadily. I gained knowledge of a variety of programming languages, including Javascript, Python, Java, C, and C++. I've completed two internships with two distinct, reputable organisations with offices in India. I chose to continue my education at Seneca College because I wanted to pursue a profession in computer science.
+        </div>
+      </div>
+    </div>
+    <!-- About Me Ends -->
+
+    <!-- Education Starts -->
+    <div id="education" class="education-container">
+      <h3 class="title">Education</h3>
+      <hr class="hr" />
+      <div class="years-div">
+        <div id="2018" class="circle-div selected" onclick="handleEducationChange(event)">
+          2019
+        </div>
+        <i class="fa-solid fa-greater-than"></i>
+        <div id="2020" class="circle-div" onclick="handleEducationChange(event)">
+          2021
+        </div>
+        <i class="fa-solid fa-greater-than"></i>
+        <div id="2022" class="circle-div" onclick="handleEducationChange(event)">
+          2022
+        </div>
+      </div>
+
+      <div class="education-detail">
+        <div class="education-image-container">
+          <img class="edu-image" src="./assets/images/Anand.jpg" alt="Anand Niketan School">
+        </div>
+        <div class="education-description">
+            <span class="edu-title">10th Grade</span>
+            <span class="edu-name">Anand Niketan School, Mehsana</span>
+            <span class="edu-desc">I passed my secondary school in the year of 2018-19 with A+ grade.</span>
+        </div>
+      </div>
+    </div>
+    <!-- Education Ends -->
+
+    <!-- Skills Starts -->
+
+    <div id="skills" class="skillsDiv">
+      <h3 class="title">My programming Skills</h3>
+      <hr class="hr" />
+      <div class="boxesDiv">
+        <div class="box">
+          <div class="text-center">
+            <img src="./assets/images/skillsImages/html.png" class="skillImage" alt="skill Images" />
+            <h3 class="skillTitle">HTML</h3>
+            <p class="skillDesc"></p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text-center">
+            <img src="./assets/images/skillsImages/css.png" class="skillImage" alt="skill Images" />
+            <h3 class="skillTitle">CSS</h3>
+            <p class="skillDesc"></p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text-center">
+            <img src="./assets/images/skillsImages/js.png" class="skillImage" alt="skill Images" />
+            <h3 class="skillTitle">Javascript</h3>
+            <p class="skillDesc"></p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text-center">
+            <img src="./assets/images/skillsImages/python.png" class="skillImage" alt="skill Images" />
+            <h3 class="skillTitle">Python</h3>
+            <p class="skillDesc"></p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text-center">
+            <img src="./assets/images/skillsImages/java.png" class="skillImage" alt="skill Images" />
+            <h3 class="skillTitle">Java</h3>
+            <p class="skillDesc"></p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text-center">
+            <img src="./assets/images/skillsImages/c.png" class="skillImage" alt="skill Images" />
+            <h3 class="skillTitle">C</h3>
+            <p class="skillDesc"></p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text-center">
+            <img src="./assets/images/skillsImages/cpp.png" class="skillImage" alt="skill Images" />
+            <h3 class="skillTitle">C++</h3>
+            <p class="skillDesc"></p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text-center">
+            <img src="./assets/images/skillsImages/mysql.png" class="skillImage" alt="skill Images" />
+            <h3 class="skillTitle">MySQL</h3>
+            <p class="skillDesc"></p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text-center">
+            <img src="./assets/images/skillsImages/oracle.png" class="skillImage" alt="skill Images" />
+            <h3 class="skillTitle">Oracle</h3>
+            <p class="skillDesc"></p>
+          </div>
+        </div>
+    </div>
+
+    <!-- Skills Ends -->
+
+    <!-- Contact Me Stats -->
+    <div id="contact" class="contact-container">
+      <h3 class="title">Contact Me</h3>
+      <hr class="hr" />
+      <form id="form" class="form-container" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="*Enter your name"
+              name="personName"
+              class="textbox"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="*Enter your email"
+              name="personEmail"
+              class="textbox"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="number">Contact Number:</label>
+            <input
+              type="text"
+              id="number"
+              placeholder="*Enter your contact number"
+              name="personContactNumber"
+              class="textbox"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="address">Address:</label>
+              <textarea
+              id="address"
+              rows="6"
+              placeholder="Enter your address"
+              name="personAddress" required
+              class="textarea"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="city">City:</label>
+            <input
+              type="text"
+              id="city"
+              list="cities"
+              placeholder="*Enter your city"
+              name="personCity"
+              class="textbox"
+              required
+            />
+            <datalist id="cities">
+              <option value="Toronto">
+              <option value="Montreal">
+              <option value="Calgary">
+              <option value="Ottawa">
+              <option value="Vancouver">
+              <option value="North-york">
+            </datalist>
+          </div>
+          <div class="form-group">
+            <label for="code">Postal Code:</label>
+            <input
+              type="text"
+              id="code"
+              placeholder="*Enter your postal code"
+              name="personPostalCode"
+              class="textbox"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="question"><input type="radio" id="question" name="inquiryType"
+                    value="Question" onchange="handleInquiryTypeChange(value)" required> Question</label>
+            <label for="hiring"><input type="radio" id="hiring" name="inquiryType" value="Hiring" onchange="handleInquiryTypeChange(value)">
+                Hiring</label>
+            <label for="comment"><input type="radio" id="comment" name="inquiryType" value="Comment" onchange="handleInquiryTypeChange(value)">
+                Comment</label>
+          </div>
+          <div class="form-group hourlyRate">
+            <label for="rate">Hourly Rate:</label>
+            <input
+              type="number"
+              id="rate"
+              placeholder="*Enter hourly rate"
+              name="hourlyRate"
+              class="textbox"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+              <textarea
+              id="message"
+              rows="6"
+              placeholder="Enter your message"
+              name="personMessage" required
+              class="textarea"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="submitBtn">Submit<i class="fas fa-paper-plane"></i></button>
+          </div>  
+      </form>
+    </div>
+    <!-- Contact Me Ends -->
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

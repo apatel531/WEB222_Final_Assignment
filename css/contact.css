@@ -1,0 +1,93 @@
+.contact-container {
+    margin: 30px 0;
+}
+.form-container {
+    margin: auto;
+    width: 60%;
+}
+
+label {
+    font-size: 16px;
+    color: #167fc5;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.textbox {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(255, 0, 0);
+    font-family: -webkit-pictograph;
+  }
+  
+  .textarea {
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ff0000;
+    font-family: -webkit-pictograph;
+  }
+  
+  .submitBtn {
+    padding: 12px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: monospace;
+    margin-top: 10px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .submitBtn:hover {
+    background-color: #273f5b;
+    color: #ffffff;
+    border: 2px solid #273f5b;
+  }
+
+.hourlyRate {
+    display: none;
+}
+ 
+  
+  @media only screen and (max-width: 600px) and (min-width: 0px) {
+    .textbox {
+      width: 142%;
+    }
+    .textarea {
+      width: 150%;
+    }
+    .submitBtn {
+      margin-top: 10px;
+    }
+
+    .form-group {
+      width: inherit;
+    }
+
+  }
+  
+  @media only screen and (max-width: 900px) and (min-width: 601px) {
+    .textbox {
+      width: 70%;
+      margin-left: -10%;
+    }
+    .textarea {
+      width: 75%;
+      margin-left: -10%;
+    }
+    .submitBtn {
+      margin-left: -10%;
+    }
+
+    .form-group {
+      width: inherit;
+    }
+  }
